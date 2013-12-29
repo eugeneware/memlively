@@ -1,6 +1,7 @@
 var LivelyDb = require('livelydb'),
     clone = require('clone'),
     diff = require('changeset'),
+    setImmediate = global.setImmediate || process.nextTick,
     inherits = require('util').inherits;
 
 module.exports = MemLively;
