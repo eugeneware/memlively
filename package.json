@@ -1,6 +1,6 @@
 {
   "name": "memlively",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Pure memory implementation of LivelyDb for doing real-time data binding of a database with local javascript objects.",
   "main": "index.js",
   "scripts": {
